@@ -1,6 +1,7 @@
 import { ScrollView, StyleSheet, View } from 'react-native';
 import PicDay from './components/PicDay';
 import { ImagesContainer } from './components/ImagesContainer';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <View style={styles.container}>
         <PicDay />
         <ImagesContainer />
+        <Footer />
       </View>
     </ScrollView>
   );
